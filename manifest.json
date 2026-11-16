@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "local.tides",
+  "name": "Tides",
+  "version": "1.0.0",
+  "author": "Andrew Bleakley",
+  "description": "Next high/low tide and today's tide curve for NSW stations",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Tides",
+    "description": "Next high/low tide with a daily tide graph",
+    "category": "Info",
+    "allowMultiple": false,
+    "schema": [
+      {
+        "key": "use24Hour",
+        "type": "boolean",
+        "label": "24-hour times",
+        "defaultValue": false
+      }
+    ]
+  }
+}
