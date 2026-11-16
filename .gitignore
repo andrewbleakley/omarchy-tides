@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Node (for running Model.js checks)
+node_modules/
+
+# QML tooling
+.qmlls.ini
+*.qmlc
+*.jsc
+
+# Editors and OS
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
+
+# Local scratch output
+*.log
+tmp/
